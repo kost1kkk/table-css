@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-weight: bold;
+    gap: 30px;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 230px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+h3 {
+    font-size: 19px;
+    margin: 15px 0;
+    color: black;
+}
+
+
+.price {
+    font-size: 40px;
+    color: black;
+    margin: 10px;
+}
+
+.subscriber {
+    font-size: 15px;
+    color: rgb(159, 155, 155);
+    margin: 10px 10px 30px 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 10px;
+}
+
+button {
+    border: none;
+    border-radius: 4px;
+    padding: 10px 30px;
+    margin: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.number-1 {
+    background-color: red;
+    color: white;
+}
+
+.number-2 {
+    background-color: orangered;
+    color: white;
+}
+
+.number-3 {
+    background-color: rgb(19, 35, 212);;
+    color: white;
+}
+
+.number-4 {
+    background-color: green;
+    color: white;
+}
+
+.card {
+    transition: transform 0.3s;
+    transform: translateX(-30px);
+}
+
+.card:hover {
+    transform: translateX(-30px) scale(1.1);
+}
+
+
